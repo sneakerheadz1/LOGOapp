@@ -1,0 +1,182 @@
+#app {
+    height: 100vh;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+    text-align: center; 
+  }
+
+  #about {
+    margin-top: 2em ;
+    display: flex;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    text-align: left;
+  }
+
+  #about p {
+    width: 400px;
+    padding: 0em;
+    height: 100vh;
+  }
+
+/* nav styling */
+nav{
+  background: rgb(65,125,146);
+  padding: 1rem 2rem .3rem;
+	box-shadow: 0 5px 6px -6px rgb(188, 188, 188);
+  /* width: 100vw; */
+  grid-area: nav;
+}
+.navbar-brand {
+  color: #d4af37;
+}
+
+a {
+  text-decoration: none;
+  color:  white;
+  font-weight: 500;
+}
+.nav-link {
+  color:  #d4af37;
+}
+a:hover{
+  color: orange;
+}
+.navbar-toggler {
+  background: #d4af37;
+  border: none;
+  padding: 10px 6px;
+}
+.navbar-toggler span {
+  display: block;width: 22px;
+  height: 2px;
+  border: 1px;
+  background: white;
+}
+.navbar-toggler span + span {
+  margin-top: 4px;
+  width: 18px;
+  margin-left: 4px;
+}
+.navbar-toggler span + span + span {
+  width: 10px;
+  margin-left: 10px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: #d4af37;
+  padding: .8rem 1rem;
+  font-size: 1rem;
+  position: relative;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  border-top: 4px solid#d4af37;
+}
+.navbar-expand-lg .navbar-nav .nav-link:active {
+  border-top: 4px solid #d4af37;
+  color:  #d4af37;
+}
+
+.home-page {
+  /* background-image: url(); */
+  background-color: rgb(132, 103, 66);
+  border: 1px solid black;
+
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+#display-card {
+  margin: 15px;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 8px 7px 0px 0px #dadada;
+  border: 1px solid #f6f6f6;
+  background-color: #ffffff;
+}
+
+/*Member Page  */
+#member {
+height: 30em;
+width: 100vw;
+background-image: url("img/HELPINGHAND.jpg");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+border-bottom: #d4af37 5px solid;
+
+}
+
+#modal-form {
+  margin-top: 5em;
+}
+input {
+  margin: 10px 0%;
+  /* top: 6px;
+  left: 8px;
+  width: 14px; */
+}
+
+#search {
+  border: 1px solid grey;
+  border-radius: 5px;
+  height: 30px;
+  width: 20%;
+  padding: 2px 13px 2px 30px;
+  outline: 0;
+  background-color: #f5f5f5;
+}
+
+.search button {
+  /* float: left; */
+  width: 5%;
+  padding: 5px;
+  background: #d4af37;
+  color: white;
+  font-size: 12px;
+  /* border: 1px solid rgb(193, 193, 193); */
+  border: none; 
+  cursor: pointer
+}
+
+
+/* Carousel */
+#slide-show {
+  margin: 3%;
+  line-height: 1.6;
+}
+
+/* Form page */
+
+#form {
+  height: 100vh;
+}
+
+
+
+
+
+
+  #footer {
+    background-color: rgb(65,125,146);
+    height: 50px;
+    text-align: center;
+    width: 100%;
+  }
