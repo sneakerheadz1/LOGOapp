@@ -13,15 +13,24 @@ import styled from 'styled-components'
 function About() {
     return (
        
-        <div id="about">
+        <div id="about-section">
+            <div className= "inner-container">
+                <h1>About LoGO</h1>
+                <p className="text">
+                As a kid growing up in the inner city I was too young to understand and appreciate how the subtle nudges and guidance from teachers and
+                 other positive adults would play in my future success. When I became an adult and started to reflect on my past I was able to acknowledge 
+                 how important those influences were in helping me navigate through some of life’s choices. While looking around the world today I noticed 
+                 there is still a gap in education and resources within lower-income communities and assisting in the goal to help educate the youth is the foundation 
+                 of this Idea.
+                </p>
+                <div className="add-ons">
+                    <span>LinkedIn</span>
+                    <span>Github</span>
+                    <span>Resume</span>
+                </div>
+            </div>
       
             
-            <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-         
-    
-                <img src="https://images.unsplash.com/photo-1522881193457-37ae97c905bf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8" alt="Simply Easy Learning" width="400" height="400"/>
         
         </div>
        
