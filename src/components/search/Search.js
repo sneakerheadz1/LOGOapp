@@ -40,7 +40,8 @@ function Search(props) {
         // console.log(`https://api.schooldigger.com/v1.2/schools?st=CA&zip=${searchParam}&appID=20b17e1b&appKey=16a4cbfd56c81912a829fed9abb8bd56`)
          fetch(`https://api.schooldigger.com/v1.2/schools?st=CA&zip=${searchParam}&appID=20b17e1b&appKey=16a4cbfd56c81912a829fed9abb8bd56`)
              .then(response => response.json())
-             .then(school => props.setSchoolData(school.schoolList))
+             .then(school => props.setSchoolData(school.schoolList.slice(5)))
+            //  console.log(schoolList)
  
      }
      
